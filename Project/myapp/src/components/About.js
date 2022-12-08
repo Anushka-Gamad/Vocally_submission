@@ -1,7 +1,22 @@
-import React from 'react'
+import React from 'react';
 
-export const About = () => {
+//import about data
+import {aboutData} from '../data';
+
+const About = () => {
+  //About data Content
+  const {image, title, subtitle } = aboutData;
+
   return (
-    <div>About</div>
+    <div className='container mx-auto'>
+      <div>
+        {/* Image Section*/}
+        <div>
+          <img src={image} alt="" />
+        </div>
+      </div>
+    </div>
   )
 }
+
+export default About

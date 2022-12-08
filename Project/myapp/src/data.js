@@ -27,7 +27,7 @@ export const heroData = {
   };
   
   export const aboutData = {
-    image: AboutImg,
+    image: Img,
     title: 'Find Out A Little More About Us',
     subtitle:
       'We are a company dedicated to the distribution of products by delivery to your home or to the place where you are, with the best quality of delivery.',
