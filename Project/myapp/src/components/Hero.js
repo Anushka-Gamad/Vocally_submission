@@ -3,6 +3,9 @@ import React from 'react';
 //importing hero data
 import {heroData} from '../data';
 
+//importing components
+import Header from '../components/Header';
+
 const Hero = () => {
   //destructoring hero data
   const {title,subtitle,btnText,image} = heroData;
@@ -10,7 +13,7 @@ const Hero = () => {
   return (
   <section className='lg:h-[900px] py-12'>
 
-    
+    <Header/>
 
     <div className='container mx-auto  h-full relative'>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mx-auto h-full relative'>

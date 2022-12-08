@@ -4,6 +4,18 @@
 import AboutImg from '../src/assets/img/about.png';
 import Img from '../src/assets/img/img2.png';
 
+export const navigationData = [
+  {
+    name: '+769 586 4558',
+    href: '#',
+  },
+  {
+    name: 'service@openauto.ca',
+    href: '#',
+  },
+];
+
+
 export const heroData = {
     title: ` Vehicle Maintenance From The Comfort of Your Home`,
     subtitle:

@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-secondary text-secondary bg-gradient-to-b from-[#0c0d1f] to-[#0c0d1f] bg-no-repeat;
+    @apply font-secondary text-secondary bg-gradient-to-b from-[#131620] to-[#131620] bg-no-repeat;
   }
   h1,
   h2,
@@ -27,7 +27,7 @@
     @apply bg-accent-secondary hover:bg-accent-secondary_hover;
   }
   .btn-quaternary {
-    @apply bg-white text-base font-bold text-primary drop-shadow-primary hover:bg-accent-primary_hover hover:text-white;
+    @apply bg-white text-base font-bold bg-accent-primary text-white hover:bg-accent-primary_hover hover:text-white;
   }
   .h1 {
     @apply text-[40px] xl:text-[80px] font-bold leading-[1.1];
