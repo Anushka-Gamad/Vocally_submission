@@ -24,6 +24,7 @@ const App = () => {
   return <div className='overflow-hidden'>
     <Hero/>
     <About/>
+    <Footer />
   </div>
 }
 

@@ -28,8 +28,8 @@ export const heroData = {
   
   export const aboutData = {
     image: Img,
-    title: 'Find Out A Little More About Us',
-    subtitle:
-      'We are a company dedicated to the distribution of products by delivery to your home or to the place where you are, with the best quality of delivery.',
-  };
+    title: 'Focused on Time Saving',
+    subtitle: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
+    btnText: 'Download the mobile app',
+    };
   

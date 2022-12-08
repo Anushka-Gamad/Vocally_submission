@@ -24,16 +24,16 @@ const Hero = () => {
                <div className="md:p-5 md:mx-5">
                     <form>
                         <div className='mb-4'>
-                          <input className="color-primary shadow appearance-none border rounded w-48 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Enter Your Name" data-aos='fade-down' data-aos-delay='600'/>
+                          <input className="color-primary shadow appearance-none border rounded w-48 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline rounded-[50px]" id="username" type="text" placeholder="Enter Your Name" data-aos='fade-down' data-aos-delay='600'/>
                         </div>
                         <div className='mb-4'>
-                        <input className="color-primary shadow appearance-none border rounded w-48 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Enter Your Email" data-aos='fade-down' data-aos-delay='700'/>
+                        <input className="color-primary shadow appearance-none border rounded w-48 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline rounded-[50px]" id="username" type="text" placeholder="Enter Your Email" data-aos='fade-down' data-aos-delay='700'/>
                         </div>
                         {/* <div className='mb-4'>
                           <button className='btn btn-primary mb-8 xl:mb-0' type="button">{btnText}</button>
                         </div> */}
                         <div className='mb-4'>
-                        <button className="inline-block w-48 px-5 py-3 text-white font-medium  rounded shadow-md hover:bg-purple-700 hover:shadow-lg  mb-8 xl:mb-0 "
+                        <button className="inline-block w-48 px-5 py-3 text-white font-medium  rounded-[50px] shadow-md hover:bg-purple-700 hover:shadow-lg  mb-8 xl:mb-0 "
                                 type="button" data-aos='fade-down' data-aos-delay='800'>{btnText}</button>
                         </div>
                       </form>
