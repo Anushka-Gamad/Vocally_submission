@@ -2,6 +2,13 @@
 <li>This repository consist the code related to the task given to me.</li>
 <li>The task was to create website . <a href="https://xd.adobe.com/view/f86fc26a-7ed9-4c4e-8bac-6a79ed8259b5-ad3c/">like this</a></li>
 
+<h2> Video Demo </h2>
+<li><a href="">Click here</a></li>
+
+<h2>My Website Screen Shots</h2>
+<img width="924" alt="page 1" src="https://user-images.githubusercontent.com/86728397/206720838-7c1ea344-6709-44b6-9349-e3b117a50cc4.PNG">
+<img width="929" alt="page2" src="https://user-images.githubusercontent.com/86728397/206720930-105c4221-c4ea-46fc-8e1f-f848ebf2092b.PNG">
+
 <h2>Project structure</h2>
 <li>The project consist 2 parts frontend and backend.</li>
 <li> Main folder : Project </li>
@@ -17,8 +24,6 @@
 <li>STEP 3: <i> npm install -D tailwindcss  -> npx tailwindcss init </i>
 <li> STEP 4: <i> npm start</i> </li>
 <li>Open localhost:3000 in your browser</li>
-<li>Open another terminal move to the server folder and run <i> node index.js</i>  (make sure to change the database details accordign to your system.) </li>
+<li>Open another terminal direct to the server folder and run <i> node index.js</i>  (make sure to change the database details accordign to your system.) </li>
 
-<h2>My task Screen shots</h2>
-<img src='https://drive.google.com/file/d/1-_b3cvHPCacEYYX6CDVNwu3BFacZiTx7/view?usp=sharing' >
-<img src='https://user-images.githubusercontent.com/86728397/206719951-db71da1d-413e-4c3c-8a02-bc128047f5ae.png'>
+
