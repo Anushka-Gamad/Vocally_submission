@@ -12,7 +12,7 @@ import {BsArrowRight} from 'react-icons/bs';
 
 export const Header = () => {
   return (
-    <header className='mb-12 lg:mb-0 z-20 relative px-4 lg:px-0'>
+    <header className='mb-12 lg:mb-0 z-20 relative px-4 lg:px-0' data-aos='fade-in'>
       <div className='container mx-auto'>
         <div className='flex items-center '>
               <div className='flex items-center gap-x-[120px]'>

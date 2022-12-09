@@ -1,8 +1,11 @@
+//importing icons
+import {FaFacebookF,FaTwitter, FaYoutube, FaInstagram, FaLinkedin} from 'react-icons/fa';
 
 
 //importing images
 import AboutImg from '../src/assets/img/about.png';
 import Img from '../src/assets/img/img2.png';
+import logo from '../src/assets/img/logo.png';
 
 export const navigationData = [
   {
@@ -33,3 +36,34 @@ export const heroData = {
     btnText: 'Download the mobile app',
     };
   
+    export const footerData = {
+      image: logo,
+      
+    };
+
+    export const copyrightData = {
+      text: 'Open Auto @ all rights reserved',
+      socialList: [
+        
+        {
+          icon: <FaFacebookF />,
+          href: '#',
+        },
+        {
+          icon: <FaTwitter />,
+          href: '#',
+        },
+        {
+          icon: <FaYoutube />,
+          href: '#',
+        },
+        {
+          icon: <FaLinkedin />,
+          href: '#',
+        },
+        {
+          icon: <FaInstagram />,
+          href: '#',
+        },
+      ],
+    };
