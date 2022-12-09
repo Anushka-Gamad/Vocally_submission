@@ -9,7 +9,7 @@ import {startData} from '../data';
 //importing components
 import Header from './Header';
 
-const Hero = (props) => {
+const Start = (props) => {
 
   //creating state variable
   const [name, setName] = useState('');
@@ -38,32 +38,32 @@ const Hero = (props) => {
     <div className='container mx-auto  h-full relative'>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mx-auto h-full relative'>
         {/*text*/}
-         <div className='text-center xl:text-left xl:relative'>
-              <h1 className='text-[60px] h1 xl:max-w-[1100px] mb-6 lg:mb-12' data-aos='fade-down' data-aos-delay='400'>{title}</h1>
-              <p className='lead xl:max-w-[470px] mb-6 lg:mb-12' data-aos='fade-down' data-aos-delay='500'>{subtitle}</p>
+         <div className='text-center xl:text-left xl:relative my-20'>
+              <h1 className='text-[57px] h1 xl:max-w-[1100px] mb-3 lg:mb-12' data-aos='fade-down' data-aos-delay='400'>{title}</h1>
+              <p className='  xl:max-w-[470px] mb-3 lg:mb-12' data-aos='fade-down' data-aos-delay='500'>{subtitle}</p>
                <div className="md:p-5 md:mx-5">
-                    <form >
+                    <form className='my-0'>
                         <div className='mb-4'>
-                          <input className="bg-primary shadow appearance-none border rounded-full w-48 py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline rounded-[50px]" id="username" type="text" placeholder="Enter Your Name" data-aos='fade-down' data-aos-delay='600'
+                          <input className="bg-primary shadow appearance-none border rounded-full w-60 py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline rounded-[50px]" id="username" type="text" placeholder="Enter Your Name" data-aos='fade-down' data-aos-delay='600'
                             value={name}
                             onChange={(e) => setName(e.target.value)}
                           />
                         </div>
                         <div className='mb-4'>
-                        <input className="bg-primary shadow appearance-none border rounded-full w-48 py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline rounded-[50px]" id="username" type="text" placeholder="Enter Your Email" data-aos='fade-down' data-aos-delay='700'
+                        <input className="bg-primary shadow appearance-none border rounded-full w-60 py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline rounded-[50px]" id="username" type="text" placeholder="Enter Your Email" data-aos='fade-down' data-aos-delay='700'
                           value={email}
                           onChange={(e) => setEmail(e.target.value)}
                         />
                         </div>
                         <div className='mb-4'>
-                        <button onClick={register} className="inline-block w-48 px-5 py-3 text-secondary font-semibold  rounded-[50px] shadow-md hover:bg-purple-700 hover:shadow-lg hover:text-white  mb-8 xl:mb-0 border border-slate-300 hover:border-indigo-300"
+                        <button onClick={register} className="inline-block w-60 px-3 py-2 text-secondary font-semibold  rounded-full shadow-md hover:bg-purple-700 hover:shadow-lg hover:text-white  mb-8 xl:mb-0 border border-slate-300 hover:border-indigo-300"
                                 type="button" data-aos='fade-down' data-aos-delay='800'>{btnText}</button>
                         </div>
                       </form>
                 </div>
           </div>
         {/*image*/}
-        <div className=' xl:right-15 xl:bottom-5' data-aos='fade-down' data-aos-delay='400'>
+        <div className='my-12 xl:right-15 xl:bottom-5' data-aos='fade-down' data-aos-delay='400'>
           <img src={image} alt=""/>
         </div>
       </div>
@@ -72,4 +72,4 @@ const Hero = (props) => {
   );
 };
 
-export default Hero
+export default Start

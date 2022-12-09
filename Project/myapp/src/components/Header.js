@@ -12,14 +12,13 @@ import {BsArrowRight} from 'react-icons/bs';
 
 export const Header = () => {
   return (
-    <header className='mb-12 lg:mb-0 z-20 relative px-4 lg:px-0' data-aos='fade-out'>
-      <div className='container mx-auto'>
+    <header className='mb-5 lg:mb-0 z-20 relative px-4 lg:px-0' data-aos='fade-out'>
         <div className='flex items-center '>
-              <div className='flex items-center gap-x-[120px]'>
+              <div className='flex items-center gap-x-[210px]'>
                 {/*Logo*/}
                 <div className='mb-4'>
                 <a href="#">
-                  <img className='max-w-sm' src={Logo} alt="" />
+                  <img className=' max-w-sm scale-75 mx-14' src={Logo} alt="" />
                 </a>
                 </div>
 
@@ -33,11 +32,11 @@ export const Header = () => {
             </div>
 
             {/*button*/}
-            <button className='btn btn-quaternary bg-primary text-secondary flex items-center gap-x-[20px] group mx-10 border border-slate-300 hover:border-indigo-300'>
+            <button className='inline block rounded-full bg-primary text-secondary px-6 py-2 flex items-center gap-x-[20px] hover:bg-purple-700 hover:text-white group mx-10 border border-slate-300 hover:border-indigo-300'>
               Download The Mobile App
             </button>
         </div>
-      </div>
+      
     </header>
   )
 };
