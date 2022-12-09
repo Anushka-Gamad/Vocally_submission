@@ -1,13 +1,13 @@
 import React from 'react';
 import Axios from 'axios';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+
 
 //importing hero data
-import {heroData} from '../data';
+import {startData} from '../data';
 
 //importing components
-import Header from '../components/Header';
+import Header from './Header';
 
 const Hero = (props) => {
 
@@ -15,6 +15,7 @@ const Hero = (props) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
 
+  //sending data to backend
   const register = () => {
     Axios.post('http://localhost:3001/register', 
     {
@@ -25,19 +26,9 @@ const Hero = (props) => {
     });
   };
 
-  // const dispatch = useDispatch();
-
-  // //function onCreateAcc
-  // function onCreateAcc(e) {
-  //   e.preventDefault();
-  //   const postData = {
-  //     name,
-  //     email,
-  //   };
-  // }
 
   //destructoring hero data
-  const {title,subtitle,btnText,image} = heroData;
+  const {title,subtitle,btnText,image} = startData;
 
   return (
   <section className='lg:h-[900px] py-12'>
@@ -51,7 +42,7 @@ const Hero = (props) => {
               <h1 className='text-[60px] h1 xl:max-w-[1100px] mb-6 lg:mb-12' data-aos='fade-down' data-aos-delay='400'>{title}</h1>
               <p className='lead xl:max-w-[470px] mb-6 lg:mb-12' data-aos='fade-down' data-aos-delay='500'>{subtitle}</p>
                <div className="md:p-5 md:mx-5">
-                    <form  >
+                    <form >
                         <div className='mb-4'>
                           <input className="bg-primary shadow appearance-none border rounded-full w-48 py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline rounded-[50px]" id="username" type="text" placeholder="Enter Your Name" data-aos='fade-down' data-aos-delay='600'
                             value={name}

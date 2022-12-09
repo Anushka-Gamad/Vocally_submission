@@ -6,6 +6,7 @@ const app = express();
 
 //this I'm using to parse every object sent from frontend to backend
 app.use(express.json());
+
 app.use(cors());
 
 const db = mysql.createConnection({
@@ -22,7 +23,7 @@ app.post('/register',(req, res) => {
     const email = req.body.useremail
 
 
-    db.query("INSERT INTO user (name, email) VALUES(?,?) ",
+    db.query("INSERT INTO userdb.register (name, email) VALUES(?,?)",
     [name, email],
     (err,result) =>{
         console.log(err);

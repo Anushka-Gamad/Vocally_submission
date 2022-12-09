@@ -19,7 +19,7 @@ export const navigationData = [
 ];
 
 
-export const heroData = {
+export const startData = {
     title: ` Vehicle Maintenance From The Comfort of Your Home`,
     subtitle:
       'Open Auto Soothers the hassle of maintaining your vehicle and helps you deal with unexpected repairs worry-free.',
