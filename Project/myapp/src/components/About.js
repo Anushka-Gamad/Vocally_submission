@@ -23,7 +23,7 @@ const About = () => {
               <p className='max-w-[475px] mx-auto'>
                 {subtitle}
               </p>
-              <button className="inline-block mb-10 w-50 px-5 py-3 text-white font-medium  rounded-[50px] shadow-md hover:bg-purple-700 hover:shadow-lg  mb-8 xl:mb-0 "
+              <button className=" my-5 inline-block mb-10 w-50 px-5 py-3 text-secondary bg-primary font-medium  rounded-[50px] shadow-md hover:bg-purple-700 hover:shadow-lg hover:text-white  mb-8 xl:mb-0 border border-slate-300 hover:border-indigo-300"
                                 type="button" >{btnText}</button>
             </div>
           </div>

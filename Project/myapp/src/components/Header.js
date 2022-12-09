@@ -12,7 +12,7 @@ import {BsArrowRight} from 'react-icons/bs';
 
 export const Header = () => {
   return (
-    <header className='mb-12 lg:mb-0 z-20 relative px-4 lg:px-0' data-aos='fade-in'>
+    <header className='mb-12 lg:mb-0 z-20 relative px-4 lg:px-0' data-aos='fade-out'>
       <div className='container mx-auto'>
         <div className='flex items-center '>
               <div className='flex items-center gap-x-[120px]'>
@@ -33,7 +33,7 @@ export const Header = () => {
             </div>
 
             {/*button*/}
-            <button className='btn btn-quaternary flex items-center gap-x-[20px] group mx-10'>
+            <button className='btn btn-quaternary bg-primary text-secondary flex items-center gap-x-[20px] group mx-10 border border-slate-300 hover:border-indigo-300'>
               Download The Mobile App
             </button>
         </div>

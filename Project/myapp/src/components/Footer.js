@@ -13,7 +13,8 @@ import Copyright from './Copyright';
 const Footer = () => {
   return (
     // <div>Footer</div>
-    <header className='mb-12 lg:mb-0 z-20 relative px-4 lg:px-0' data-aos='fade-up'>
+    <div className=''>
+    <header className='my-10 mb-12 lg:mb-0 z-20 relative px-4 lg:px-0' data-aos='fade-up'>
       <div className='container mx-auto'>
         <div className='flex items-center'>
               <div className='flex items-center gap-x-[350px]'>
@@ -45,6 +46,7 @@ const Footer = () => {
             </div>
             <Copyright/>
             </header>
+            </div>
   );
 };
 
